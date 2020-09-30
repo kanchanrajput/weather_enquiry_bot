@@ -3,7 +3,7 @@ import telebot
 import requests as req
 import json
 
-my_weather_bot = telebot.TeleBot("1206342928:AAEpfojM1Aosi3Ks9ShRZAMpkBkUwKYftgk")
+my_weather_bot = telebot.TeleBot("token")
 
 @my_weather_bot.message_handler(commands=['start', 'help'])
 
